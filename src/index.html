@@ -9,16 +9,50 @@
 </head>
 <body>
     <div class="container">
-        <div>1</div>
-        <div class="active">2</div>
-        <div class="findme">
-            <div class="some">1</div>
-            <div class="some">2</div>
-            <div class="more">3</div>
-            <div class="some">4</div>
-            <div class="more">5</div>
+        <button class="btn btn-primary m20" id="first">Fade out first text</button>
+        <button class="btn btn-dark m20" data-counter="second">Fade out second text</button>
+        <button class="btn btn-warning m20">Fade out all texts</button>
+
+        <!--Dropdown menu-->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+            <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+                <a href="#" class="dropdown-item">Action 1</a>
+                <a href="#" class="dropdown-item">Action 2</a>
+                <a href="#" class="dropdown-item">Action 3</a>
+            </div>
         </div>
-        <button class="btn">Нажми на меня</button>
+
+        <div class="wrap">
+
+        </div>
+
+
+        <!--Card-->
+        <div class="goods d-flex f-space-around">
+            <div class="card">
+                <img class="card-img" src="https://avatars.mds.yandex.net/i?id=12aced9c17dcb61f61419b9c7528d50d-5583685-images-thumbs&n=13&exp=1" alt="photo">
+                <div class="card-body">
+                    <div class="card-title">Card title</div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam aspernatur amet aperiam? Sunt aspernatur blanditiis quisquam esse?</p>
+                    <a href="#" class="btn btn-primary">Link to</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://avatars.mds.yandex.net/i?id=12aced9c17dcb61f61419b9c7528d50d-5583685-images-thumbs&n=13&exp=1" alt="photo">
+                <div class="card-body">
+                    <div class="card-title">Card title</div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam aspernatur amet aperiam? Sunt aspernatur blanditiis quisquam esse?</p>
+                    <a href="#" class="btn btn-primary">Link to</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal-->
+
+        <div class="modal" id="exampleModal">
+
+        </div>
     </div>
     <script src='script.js'></script>
 </body>
